@@ -1,0 +1,86 @@
+---
+title: ""
+format: html
+---
+
+\`\`\`{{=html}}
+
+<html>
+
+<head>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+```{=html}
+
+<style>
+body {
+  font-family: Arial;
+  color: black;
+}
+
+.split {
+  height: 100%;
+  width: 60%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.left {
+  left: 0;
+  background-color: white;
+}
+
+.right {
+  right: 0;
+  background-color: white;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 45%;
+  transform: translate(-60%, -50%);
+  text-align: center;
+}
+
+.centered img {
+  width: 450px;
+  border-radius: 10%;
+}
+</style>
+```
+</head>
+
+<body>
+
+::: {.split .left}
+::: centered
+![](images/me-05.jpg)
+:::
+:::
+
+::: {.split .right}
+::: centered
+
+``` {style="color: teal"}
+ Hello!
+```
+
+Welcome to my research page, where biology, art, and education intersect.
+
+I am a second-year environmental biology PhD student at the University of Massachusetts, Boston. My main research focuses on how anthropogenic climate change is altering the symbiotic relationship between aphids and ants.
+
+Besides my work in species interactions, I'm interested in creating "art that educates," making science more accessible and nicer to look at!
+:::
+:::
+
+</body>
+
+</html>
+
+```{=html}
+```

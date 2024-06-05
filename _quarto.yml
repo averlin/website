@@ -1,0 +1,25 @@
+project:
+  type: website
+
+website:
+  title: ""
+  navbar: 
+    foreground: info
+    search: true
+    left:
+      - href: index.qmd
+        text: AVERIE ST.GERMAINE
+      - href: gallery.qmd
+        text: PHOTOS
+      - href: projects.qmd
+        text: PROJECTS
+      
+format:
+  html:
+    theme: theme.scss
+    mainfont: Roboto
+    css: styles.css
+    toc: true
+
+editor: visual
+
